@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/imageListFragment">
+
+    <fragment
+        android:id="@+id/imageListFragment"
+        android:name="com.ksayker.modiface.presentation.fragment.imagelist.ImageListFragment"
+        android:label="ImageListFragment"
+        tools:layout="@layout/fragment_image_list">
+
+        <action
+            android:id="@+id/action_imageListFragment_to_editImageFragment"
+            app:destination="@id/editImageFragment" />
+
+        <action
+            android:id="@+id/action_imageListFragment_to_editPhotoFragment"
+            app:destination="@id/editPhotoFragment" />
+
+        <action
+            android:id="@+id/action_imageListFragment_to_randomImageFragment"
+            app:destination="@id/randomImageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editImageFragment"
+        android:name="com.ksayker.modiface.presentation.fragment.editimage.EditImageFragment"
+        android:label="EditImageFragment"
+        tools:layout="@layout/fragment_edit_image" />
+
+    <fragment
+        android:id="@+id/editPhotoFragment"
+        android:name="com.ksayker.modiface.presentation.fragment.editphoto.EditPhotoFragment"
+        android:label="EditPhotoFragment"
+        tools:layout="@layout/fragment_edit_photo" />
+
+    <fragment
+        android:id="@+id/randomImageFragment"
+        android:name="com.ksayker.modiface.presentation.fragment.randomimage.RandomImageFragment"
+        android:label="RandomImageFragment"
+        tools:layout="@layout/fragment_random_image" />
+</navigation>

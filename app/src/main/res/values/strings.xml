@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Modiface</string>
+    <string name="error">Error</string>
+
+    <string name="imageList_title">Image list</string>
+    <string name="imageList_needPermission">Need permission</string>
+
+    <string name="editImage_title">Edit Image</string>
+    <string name="editImage_imageSaved">Image saved</string>
+    <string name="editImage_imageSaveError">Error</string>
+    <string name="editImage_needPermission">Need permission</string>
+
+    <string name="editPhoto_title">Edit Photo</string>
+    <string name="editPhoto_captured">Captured</string>
+    <string name="editPhoto_needPermission">Need permission</string>
+
+    <string name="randomImage_title">Random Image</string>
+    <string name="randomImage_needPermission">Need permission</string>
+    <string name="randomImage_imageSaved">Image saved</string>
+    <string name="randomImage_imageSaveError">Error</string>
+    <string name="randomImage_imageLoadingError">Error</string>
+
+    <string name="filter_colorRed">Red</string>
+    <string name="filter_colorGreen">Green</string>
+    <string name="filter_colorBlue">Blue</string>
+    <string name="filter_invert">Invert</string>
+    <string name="filter_noise">Noise</string>
+</resources>
